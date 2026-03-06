@@ -21,5 +21,5 @@ Especialista en el diseño de arquitecturas de Business Intelligence y modelos p
 <ul>
   <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yair-chavez-actuary" target="_blank" rel="noopener noreferrer">Visitar perfil profesional</a></li>
   <li><strong>Email:</strong> <a href="mailto:yair.chavez.castro@gmail.com" target="_blank" rel="noopener noreferrer">yair.chavez.castro@gmail.com</a></li>
-  <li><strong>WhatsApp:</strong> <a href="https://wa.me/5255XXXXXXXX" target="_blank" rel="noopener noreferrer">Enviar mensaje directo</a></li>
+  <li><strong>WhatsApp:</strong> <a href="https://wa.me/525520186345" target="_blank" rel="noopener noreferrer">Enviar mensaje directo</a></li>
 </ul>
