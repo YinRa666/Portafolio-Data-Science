@@ -1,13 +1,22 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air" # El estilo blanco y limpio
+minimal_mistakes_skin: "air"
+encoding: "utf-8"
 locale: "es-MX"
 
-# Configuración básica
-title: "Yaír Odín Chávez Castro"
-name: "Yaír Odín Chávez Castro"
-bio: "Senior Data Analyst | Actuario | Applied Data Science MIT"
+# Datos del Autor
+author:
+  name: "Yaír Odín Chávez Castro"
+  bio: "Senior Data Analyst | Actuario | Applied Data Science MIT"
+  location: "CDMX, México"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yair-chavez-actuary"
+    - label: "WhatsApp"
+      icon: "fab fa-fw fa-whatsapp"
+      url: "https://wa.me/5255XXXXXXXX"
 
-# Para que el README sea la página principal con el diseño correcto
+# Configuración de página
 defaults:
   - scope:
       path: ""
