@@ -11,8 +11,8 @@ Especialista en el diseño de arquitecturas de Business Intelligence y modelos p
 ---
 
 ### Tech Stack & Herramientas
-* **Análisis Avanzado:** Python, SQL, R, Estadística Actuarial.
-* **Business Intelligence:** Power BI, Tableau, VBA para Excel.
+* **Análisis Avanzado:** Python, R, SQL, SAS, SPSS, DAX, VBA.
+* **Business Intelligence:** Power BI, Tableau, Excel Avanzado.
 * **Certificaciones:** Applied Data Science Program (MIT), Data Visualization (Power BI).
 
 ---
