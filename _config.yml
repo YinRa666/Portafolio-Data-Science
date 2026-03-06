@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # Este skin es blanco y limpio, muy profesional
+include: ["_pages", "_posts", "_projects"]
+show_downloads: false
