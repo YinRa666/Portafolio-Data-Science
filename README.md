@@ -26,4 +26,4 @@
 
 ### 📫 Contacto
 * **LinkedIn:** [linkedin.com/in/yair-chávez-actuary](https://www.linkedin.com/in/yaír-chávez-actuary)
-* **Email:** yair.chavez.castro@gmail.com
+* **Email:** [yair.chavez.castro@gmail.com](mailto:yair.chavez.castro@gmail.com)
