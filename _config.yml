@@ -1,4 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+repository: "YinRa666/Portafolio-Data-Science"
 minimal_mistakes_skin: "air"
 locale: "es-MX"
 
@@ -6,8 +7,8 @@ title: "Yaír Odín Chávez Castro"
 author:
   name: "Yaír Odín Chávez Castro"
   bio: "Senior Data Analyst | Actuario | MIT Applied Data Science"
+  location: "CDMX, México"
 
-# ESTO ES LO QUE SOLUCIONA EL ERROR:
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
