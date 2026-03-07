@@ -1,0 +1,13 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Busca todos los enlaces que empiecen con http (externos)
+    var links = document.querySelectorAll('.sidebar a[href^="http"], .author__urls a[href^="http"]');
+    links.forEach(function(link) {
+      // Si no es de tu propio dominio, forzar pestaña nueva
+      if (!link.href.includes("YinRa666.github.io")) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
