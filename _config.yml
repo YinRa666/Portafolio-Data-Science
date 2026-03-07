@@ -42,3 +42,7 @@ defaults:
 external_links:
   target: "_blank"
   rel: "nofollow noopener noreferrer"
+
+kramdown:
+  header_nodes: [h1, h2, h3, h4, h5, h6]  
+  anchor_links: false
