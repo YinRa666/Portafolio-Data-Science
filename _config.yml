@@ -1,1 +1,5 @@
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
+title: "Yaír Odín Chávez Castro"
+description: "Senior Data Analyst | Actuario | Applied Data Science MIT"
+show_downloads: false
+google_analytics:
