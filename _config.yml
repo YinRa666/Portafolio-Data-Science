@@ -21,8 +21,8 @@ author:
       icon: "fab fa-fw fa-whatsapp"
       url: "https://wa.me/525520186345"
     - label: "Gmail"
-      icon: "fab fa-fw fa-envelope"
-      url: "mailto:tu-correo@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:yair.chavez.castro@gmail.com"
 author_profile: true
 
 plugins:
@@ -37,4 +37,8 @@ defaults:
       layout: "single"
       author_profile: true
       sidebar:
-        nav: "main"
+        nav: ""
+
+external_links:
+  target: "_blank"
+  rel: "nofollow noopener noreferrer"
