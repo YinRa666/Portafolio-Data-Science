@@ -19,10 +19,10 @@ author:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yair-chavez-actuary"
+      url: "https://www.linkedin.com/in/yair-chavez-actuary' target='_blank"
     - label: "WhatsApp"
       icon: "fab fa-fw fa-whatsapp"
-      url: "https://wa.me/525520186345"
+      url: "https://wa.me/525520186345 target='_blank"
     - label: "Gmail"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:yair.chavez.castro@gmail.com"
