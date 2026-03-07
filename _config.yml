@@ -19,7 +19,7 @@ author:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yair-chavez-actuary 'target='_blank"
+      url: "<a href='https://www.linkedin.com/in/yair-chavez-actuary' target='_blank'>"
     - label: "WhatsApp"
       icon: "fab fa-fw fa-whatsapp"
       url: "<a href='https://wa.me/525520186345' target='_blank'>WhatsApp</a>"
