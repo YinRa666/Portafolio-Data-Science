@@ -1,22 +1,39 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# Configuración de Rutas (Crucial para que carguen los estilos)
+url: "https://YinRa666.github.io"
+baseurl: "/Portafolio-Data-Science"
 repository: "YinRa666/Portafolio-Data-Science"
-minimal_mistakes_skin: "air"
-locale: "es-MX"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-title: "Yaír Odín Chávez Castro"
+# Apariencia y Lenguaje
+minimal_mistakes_skin: "air" # Estilo blanco y limpio (puedes probar "contrast" si lo quieres más oscuro)
+locale: "es-MX"
+encoding: "utf-8"
+
+# Información del Autor (Barra Lateral)
 author:
   name: "Yaír Odín Chávez Castro"
-  bio: "Senior Data Analyst | Actuario | MIT Applied Data Science"
+  bio: "Actuario | Senior Data Analyst | MIT Applied Data Science"
   location: "CDMX, México"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yair-chavez-actuary" # Reemplaza con tu link real si es otro
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/YinRa666"
 
+# Configuración de Plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+# Configuración de Diseño por Defecto
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "single"
-      author_profile: true
+      author_profile: true # Esto activa la barra lateral que te gusta
+      sidebar:
+        nav: "main"
