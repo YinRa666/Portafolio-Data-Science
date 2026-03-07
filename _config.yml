@@ -16,10 +16,10 @@ author:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"      
-      url: "<href='https://www.linkedin.com/in/yair-chavez-actuary' target='_blank'>"  
+      url: "https://www.linkedin.com/in/yair-chavez-actuary"  
     - label: "WhatsApp"
       icon: "fab fa-fw fa-whatsapp"
-      url: "<a href='https://wa.me/525520186345' target='_blank'>WhatsApp</a>"
+      url: "https://wa.me/525520186345"
     - label: "Gmail"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:yair.chavez.castro@gmail.com"
