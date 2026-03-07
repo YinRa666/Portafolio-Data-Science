@@ -1,4 +1,4 @@
-# Yaír Odín Chávez Castro 
+# Yaír Odín Chávez Castro
 ## Senior Data Analyst | Actuario | Applied Data Science MIT
 
 Soy Actuario con más de 17 años de experiencia transformando datos complejos en motores de decisión estratégica. Mi enfoque combina el rigor actuarial con herramientas de vanguardia para optimizar flujos analíticos a escala y garantizar la integridad estadística en la toma de decisiones.
