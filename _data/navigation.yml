@@ -1,0 +1,5 @@
+main:
+  - title: "Introducción"
+    url: /
+  - title: "Proyectos"
+    url: /proyectos/
