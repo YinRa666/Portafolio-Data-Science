@@ -15,8 +15,8 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/yair-chavez-actuary"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: "Gmail"
+      icon: "fab fa-fw fa-google"
       url: "https://github.com/YinRa666"
 
 plugins:
