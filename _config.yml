@@ -2,7 +2,7 @@ url: "https://YinRa666.github.io"
 baseurl: "/Portafolio-Data-Science"
 repository: "YinRa666/Portafolio-Data-Science"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-title: "Data Science Projects"
+title: "Semblanza"
 
 # CONFIGURACIÓN VISUAL
 minimal_mistakes_skin: "contrast" # <--- Esto cambiará el azul por gris oscuro/negro
@@ -21,7 +21,7 @@ author:
       icon: "fab fa-fw fa-whatsapp"
       url: "https://wa.me/525520186345"
     - label: "Gmail"
-      icon: "fab fa-fw fa-gnail"
+      icon: "fab fa-fw fa-gmail"
       url: "mailto:tu-correo@gmail.com"
 author_profile: true
 
