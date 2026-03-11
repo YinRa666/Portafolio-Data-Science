@@ -12,43 +12,24 @@ author_profile: true
     margin-left: 3.5rem !important;
   }
 
-  /* 2. ENSANCHAR TEXTO HASTA TUS LÍNEAS ROJAS */
-  /* Forzamos al contenedor padre a ignorar su límite de ancho */
-  .page {
-    width: 100% !important;
+  /* 2. ENSANCHAR TODO EL CONTENEDOR */
+  /* Esto elimina los márgenes internos que te están dejando el espacio en blanco */
+  .page__inner-wrap {
+    padding-right: 0 !important;
     max-width: 100% !important;
-    padding-right: 2% !important;
   }
 
   .archive, .page__content {
-    max-width: 1250px !important; /* Aquí es donde se estira el texto a la derecha */
+    max-width: 100% !important; /* Aquí es donde se expande hasta tus líneas rojas */
     width: 100% !important;
-    padding-right: 40px !important;
   }
 
-  /* 3. ESTILO DE CAJAS (Cards) */
+  /* 3. AJUSTE DE LA CUADRÍCULA */
   .contenedor-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    margin-top: 30px;
     width: 100%;
-  }
-
-  .tarjeta-proyecto {
-    flex: 1 1 300px;
-    border: 1px solid #e1e4e8;
-    border-radius: 12px;
-    padding: 25px;
-    background: #ffffff;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    transition: 0.3s;
-  }
-
-  .tarjeta-proyecto:hover {
-    border-color: #ff0000;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(255,0,0,0.1);
   }
 </style>
 
