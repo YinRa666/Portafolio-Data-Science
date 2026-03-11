@@ -13,7 +13,7 @@ author:
   name: "Yaír Chávez"
   bio: "Transformar océanos de complejidad e incertidumbre en datos con valor estratégico."  
   #location: "<a href='https://www.google.com/maps/search/Azcapotzalco+CDMX' target='_blank' style='display: inline; vertical-align: middle; text-decoration: none;'>CDMX, México</a>"
-  location: "<a href='https://www.google.com/maps/place/Ciudad+de+M%C3%A9xico' target='_blank' style='display: inline'>CDMX, México</a>"  
+  location: "<a href='https://www.google.com/maps/search/Azcapotzalco+CDMX' target='_blank' style='display: inline; vertical-align: middle;'>CDMX, México</a>"
   avatar: "/assets/images/perfil-profesional.jpg"
   links:
     - label: "LinkedIn"
