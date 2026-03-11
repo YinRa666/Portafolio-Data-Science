@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "Portafolio de Proyectos"
 permalink: /proyectos/
 author_profile: true
