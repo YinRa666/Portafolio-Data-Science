@@ -1,0 +1,35 @@
+---
+# Solo si el archivo termina en .scss
+---
+
+@import "minimal-mistakes";
+
+/* Tu personalización para cumplir el boceto */
+.masthead__menu {
+  float: left !important;
+  margin-left: 1rem !important;
+}
+
+.page {
+  width: 100% !important;
+  padding-right: 20px !important;
+}
+
+.page__content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Las cajas de proyectos */
+.grid__item_card {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
