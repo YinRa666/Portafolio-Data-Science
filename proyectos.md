@@ -12,38 +12,45 @@ author_profile: true
     margin-left: 3.5rem !important;
   }
 
-  /* 2. DISTRIBUCIÓN DE ANCHO TOTAL */
-  @media (min-width: 64em) {
-    /* Quitamos cualquier restricción del contenedor padre */
-    .page__inner-wrap {
-      width: 100% !important;
-      max-width: 100% !important;
-      display: block !important;
-    }
+  /* 2. ELIMINAR EL "CORSÉ" DEL TEMA */
+  /* Forzamos al contenedor principal a ocupar todo el ancho */
+  #main {
+    max-width: 100% !important;
+    padding: 0 20px !important;
+  }
 
-    /* La foto se queda fija a la izquierda */
+  .page__inner-wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    align-items: flex-start !important;
+  }
+
+  /* 3. REPARTO DE ESPACIO */
+  @media (min-width: 64em) {
     .sidebar {
       width: 260px !important;
-      float: left !important;
-      margin-right: 50px !important;
+      min-width: 260px !important;
+      margin-right: 40px !important;
+      display: block !important;
+      position: sticky !important;
+      top: 20px;
     }
 
-    /* El texto se expande hasta el borde derecho */
     .page__content {
-      float: left !important;
-      width: calc(100% - 350px) !important; /* El secreto del estirón */
+      flex: 1 !important; /* Toma todo el espacio que sobra */
       max-width: none !important;
-      padding-right: 5% !important;
+      width: auto !important;
     }
   }
 
-  /* 3. DISEÑO DE CAJAS DE PROYECTOS */
+  /* 4. CAJAS DE PROYECTOS */
   .grid-proyectos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 25px;
     margin-top: 30px;
-    clear: both; /* Evita que las cajas se suban a la foto */
+    width: 100%;
   }
 
   .tarjeta-actuarial {
@@ -73,11 +80,11 @@ Como Actuario con más de **18 años** de trayectoria, he liderado proyectos de 
 
   <div class="tarjeta-actuarial">
     <h4 style="margin:0; color: #333;">Proyecto MIT 1</h4>
-    <p style="font-size: 0.9em; margin-top: 15px; color: #666;">Análisis predictivo de mercados utilizando técnicas de Machine Learning con Python.</p>
+    <p style="font-size: 0.9em; margin-top: 15px; color: #666;">Análisis predictivo de mercados con Machine Learning y Python.</p>
   </div>
 
   <div class="tarjeta-actuarial">
     <h4 style="margin:0; color: #333;">Análisis de Riesgo</h4>
-    <p style="font-size: 0.9em; margin-top: 15px; color: #666;">Simulaciones Monte Carlo para evaluación de solvencia en carteras dinámicas.</p>
+    <p style="font-size: 0.9em; margin-top: 15px; color: #666;">Simulaciones Monte Carlo para evaluación de solvencia estratégica.</p>
   </div>
 </div>
