@@ -7,7 +7,7 @@ sidebar:
   nav: ""
 ---
 
-Soy actuario con de 18 años de experiencia transformando datos complejos en motores de decisión estratégica. Mi enfoque combina el rigor de la ciencia actuarial con herramientas de vanguardia para optimizar flujos analíticos a gran escala y garantizar la integridad estadística en la toma de decisiones.
+Soy actuario con 18 años de experiencia transformando datos complejos en motores de decisión estratégica. Mi enfoque combina el rigor de la ciencia actuarial con herramientas de vanguardia para optimizar flujos analíticos a gran escala y garantizar la integridad estadística en la toma de decisiones.
 
 ## Resumen Profesional
 
