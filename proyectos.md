@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Portafolio de Proyectos"
 permalink: /proyectos/
 author_profile: true
@@ -12,62 +12,66 @@ author_profile: true
     margin-left: 3.5rem !important;
   }
 
-  /* 2. ELIMINAR EL "CENTRADO" FORZADO DEL TEMA */
-  /* Esto hace que Proyectos se alinee igual que la Principal */
-  .page {
-    width: 100% !important;
-    padding-right: 0 !important;
-    margin-right: 0 !important;
+  /* 2. FORZAR QUE EL CONTENIDO RESPETE LA FOTO */
+  /* Al usar layout splash, el contenido tiende a ocupar todo. 
+     Le damos un margen izquierdo para que no choque con tu perfil. */
+  .archive, .page__content, .page__inner-wrap {
+    margin-left: 300px !important;
+    padding-right: 5% !important;
+    width: auto !important;
+    display: block !important;
   }
 
-  .page__inner-wrap {
-    float: left !important; /* Fuerza la alineación a la izquierda */
-    width: 100% !important;
-    max-width: 100% !important; /* Rompe el corsé de lectura */
-  }
-
-  .archive, .page__content {
-    text-align: left !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* 3. RECUPERAR EL ROJO Y CUADRÍCULA */
-  .nota-roja {
-    border-left: 5px solid #ff0000;
-    padding: 15px;
-    background: #fff5f5;
-    margin-bottom: 25px;
-    width: 100%;
-  }
-
-  .grid-proyectos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* 3. CAJAS DE PROYECTOS */
+  .contenedor-grid {
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    width: 100%;
+    margin-top: 30px;
+  }
+
+  .tarjeta-actuarial {
+    flex: 1 1 300px;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+
+  /* Ajuste para móviles */
+  @media (max-width: 768px) {
+    .archive, .page__content, .page__inner-wrap {
+      margin-left: 0 !important;
+    }
   }
 </style>
 
-<div class="nota-roja">
+<div style="text-align: justify;">
+Como Actuario con más de **18 años** de trayectoria, he liderado proyectos de alta sensibilidad estratégica para diversas instituciones financieras y organismos internacionales.
+
+<blockquote style="border-left: 5px solid #ff0000; background: #fff5f5; padding: 15px; margin: 20px 0;">
   <strong>Nota de Confidencialidad:</strong> Debido a la naturaleza de los datos manejados y a la vigencia de contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales y análisis predictivos no pueden ser expuestos públicamente.
+</blockquote>
 </div>
 
 ---
 
 ### Proyectos Destacados
 
-<div class="grid-proyectos">
-  <div style="border: 1px solid #eee; padding: 20px; border-radius: 10px; background: #fff;">
+<div class="contenedor-grid">
+  <div class="tarjeta-actuarial">
     <h4 style="margin:0"><a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">Proyecto ENCAL</a></h4>
-    <p style="font-size: 0.9em; margin-top: 10px;">Modelación actuarial avanzada aplicada a sistemas de calidad.</p>
+    <p style="font-size: 0.9em; margin-top: 15px; color: #666;">Modelación actuarial avanzada aplicada a sistemas de calidad.</p>
   </div>
-  <div style="border: 1px solid #eee; padding: 20px; border-radius: 10px; background: #fff;">
-    <h4 style="margin:0">Proyecto MIT 1</h4>
-    <p style="font-size: 0.9em; margin-top: 10px;">Análisis predictivo de mercados con Python.</p>
+
+  <div class="tarjeta-actuarial">
+    <h4 style="margin:0; color: #333;">Proyecto MIT 1</h4>
+    <p style="font-size: 0.9em; margin-top: 15px; color: #666;">Análisis predictivo de mercados con Python.</p>
   </div>
-  <div style="border: 1px solid #eee; padding: 20px; border-radius: 10px; background: #fff;">
-    <h4 style="margin:0">Análisis de Riesgo</h4>
-    <p style="font-size: 0.9em; margin-top: 10px;">Simulaciones para evaluación de solvencia estratégica.</p>
+
+  <div class="tarjeta-actuarial">
+    <h4 style="margin:0; color: #333;">Análisis de Riesgo</h4>
+    <p style="font-size: 0.9em; margin-top: 15px; color: #666;">Simulaciones para evaluación de solvencia estratégica.</p>
   </div>
 </div>
