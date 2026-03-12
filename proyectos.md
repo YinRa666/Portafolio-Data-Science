@@ -14,10 +14,10 @@ classes: wide
   }
 </style>
 
-<div style="text-align: justify; margin-bottom: 20px;">
-Como Actuario con 18 años de trayectoria, he desarrollado y estructurado soluciones de alta sensibilidad estratégica para diversos clientes nacionales e internacionales, garantizando un rigor técnico y confiabilidad estadística superior en la entrega de cada proyecto.
-
-Debido a la naturaleza de los datos manejados y a la vigencia de contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales y análisis predictivos no pueden ser expuestos públicamente.
+<div style="text-align: justify; font-size: 1.05em; color: #333; line-height: 1.6;">
+  Como Actuario con 18 años de trayectoria, he desarrollado y estructurado soluciones de alta sensibilidad estratégica para diversos clientes nacionales e internacionales, garantizando un rigor técnico y confiabilidad estadística superior en la entrega de cada proyecto.
+  
+  Debido a la naturaleza de los datos manejados y a la vigencia de acuerdos de confidencialidad (NDA), la exposición pública de mis modelos actuariales y análisis predictivos es limitada; los casos presentados a continuación representan una muestra selecta de arquitecturas de solución que respetan estrictamente dichos marcos normativos.
 </div>
 
 ---
@@ -29,7 +29,7 @@ Debido a la naturaleza de los datos manejados y a la vigencia de contratos de co
   <div class="grid__item">
     <article class="archive__item" style="border: 1px solid #eee; padding: 20px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">
-        <a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">Proyecto ENCAL</a>
+        <a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">ENCAL</a>
       </h3>
       <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Modelación actuarial avanzada aplicada a sistemas de calidad y cálculo estructural.</p>
     </article>
