@@ -31,7 +31,7 @@ classes: wide
       <h3 class="archive__item-title" style="margin:0">
         <a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">ENCAL</a>
       </h3>
-      <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Modelación actuarial avanzada aplicada a sistemas de calidad y cálculo estructural.</p>
+      <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Lideré el diseño muestral estratégico y la arquitectura de integración de series históricas (2009-2025). El reto principal fue la armonización de bases de datos masivas para permitir un análisis longitudinal de la calidad del servicio, garantizando la consistencia estadística a lo largo de 16 años de mediciones.</p>
     </article>
   </div>
 
