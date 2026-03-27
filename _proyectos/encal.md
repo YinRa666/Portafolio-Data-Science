@@ -1,4 +1,9 @@
-# ENCAL: Estudio Nacional de Calidad de la Atención (2009-2025)
+---
+layout: default
+title: Proyecto ENCAL
+---
+
+# ENCAL: Estudio Nacional de Calidad de la Atención
 
 ## Contexto del Proyecto
 El Estudio Nacional de Calidad de la Atención (ENCAL) es el instrumento estratégico de evaluación de servicios de salud más extenso del instituto. Su objetivo es la medición multidimensional de la experiencia del usuario, integrando métricas de satisfacción, percepción de calidad técnica, tiempos de espera y trato digno.
