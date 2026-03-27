@@ -1,6 +1,9 @@
 ---
-layout: default
-title: Proyecto ENCAL
+layout: single
+title: "ENCAL: Estudio Nacional de Calidad de la Atención"
+permalink: /proyectos/encal/
+author_profile: true
+classes: wide
 ---
 
 # ENCAL: Estudio Nacional de Calidad de la Atención
