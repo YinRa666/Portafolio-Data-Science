@@ -15,14 +15,15 @@ Mi responsabilidad consistió en la dirección técnica de la infraestructura de
 ### Contribución Técnica de Alto Nivel
 
 * **Arquitectura de Datos y Armonización Histórica:** Ejecuté la consolidación de series temporales (2009-2025), resolviendo inconsistencias estructurales entre bases de datos masivas. Este proceso de ingeniería permitió, por primera vez, el monitoreo comparativo de indicadores críticos a largo plazo.
-* **Diseño Estadístico y Muestreo:** Responsable del dimensionamiento y diseño muestral a nivel nacional. Aseguré la representatividad estadística estratificada por niveles de atención (primero, segundo y tercer nivel) y regiones geográficas, garantizando la validez de las inferencias para la toma de decisiones institucionales.
+* **Diseño Estadístico y Muestreo:** Responsable del dimensionamiento y diseño muestral a nivel nacional. Aseguré la representatividad estadística estratificada por niveles de atención y regiones geográficas, garantizando la validez de las inferencias para la toma de decisiones institucionales.
 * **Optimización de Procesamiento en Big Data:** Debido a la magnitud de los registros y las restricciones de hardware, implementé soluciones de procesamiento mediante **PySpark**. Esto permitió la manipulación de grandes volúmenes de datos directamente en disco, optimizando el uso de memoria y garantizando la escalabilidad del análisis.
 
 ### Ecosistema Tecnológico y Visualización
 Diseñé una plataforma analítica integral en **Power BI**, utilizando **DAX avanzado** para la creación de métricas complejas de investigación de mercados.
 
+* **Análisis de Perfiles y Cobertura:** Dashboards dinámicos con segmentación demográfica de los usuarios entrevistados y visualización detallada de las unidades médicas que integraron la muestra, especificando el volumen de entrevistas levantadas por unidad.
+* **Análisis de Series de Tiempo:** Implementación de visualizaciones dinámicas para el monitoreo de la evolución histórica de los indicadores (2009-2025), permitiendo identificar tendencias y medir el impacto de cambios en las políticas de atención a lo largo de 16 años.
 * **Visualización Geoespacial:** Integración de mapas de regionalización para identificar brechas de calidad por zona geográfica.
-* **Análisis de Perfiles:** Dashboards dinámicos con segmentación demográfica de entrevistados y estatus operativo de unidades médicas.
 
 ---
 
