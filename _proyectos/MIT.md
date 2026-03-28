@@ -22,7 +22,7 @@ Tras un proceso riguroso de limpieza de datos, ingeniería de variables y entren
 ### Desarrollo del Modelo (Python)
 Aquí comparto el bloque de código final. Me enfoqué en limpiar la base de datos de manera que el modelo XGBoost pudiera aprovechar cada variable sin ruido, asegurando que las columnas entre los datos de entrenamiento y los de prueba fueran siempre consistentes.
 
-![Pipeline de Clasificación XGBoost]({{ site.baseurl }}/assets/images/Codigo MIT.png)
+<img src="{{ site.baseurl }}/assets/images/Codigo MIT.png" alt="Pipeline de Clasificación XGBoost" style="width:70%; display:block; margin:auto; border-radius:10px; shadow: 5px 5px 15px rgba(0,0,0,0.1);">
 
 ---
 [« Volver a Proyectos]({{ site.baseurl }}/proyectos/)
