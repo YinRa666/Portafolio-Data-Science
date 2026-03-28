@@ -21,7 +21,7 @@ classes: wide
 </div>
 
 ---
-<h3 style="margin-top: 60px; margin-bottom: 20px; font-weight: bold;">
+<h3 style="margin-top: 10px; margin-bottom: 20px; font-weight: bold;">
   Proyectos Destacados
 </h3>
 
