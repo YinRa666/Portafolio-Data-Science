@@ -34,13 +34,16 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: "posts"
     values:
       layout: "single"
       author_profile: true
       classes: "wide"
       sidebar:
         nav: ""
+      show_date: false
+      related: false
+      page_navigation: false
 
 external_links:
   target: "_blank"
