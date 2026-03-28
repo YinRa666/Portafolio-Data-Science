@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Hackaton MIT: Modelo de predicción supervisada"
-permalink: /proyectos/MIT/
+title: Hackatón MIT: Modelo de Predicción Supervisada"
+permalink: /proyectos/encal/
 author_profile: true
 classes: wide
 ---
