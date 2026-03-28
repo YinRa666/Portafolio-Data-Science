@@ -28,7 +28,7 @@ classes: wide
 <div class="grid__wrapper">
   
   <div class="grid__item">
-    <article class="archive__item" style="border: 3px solid #eee; padding: 10px; border-radius: 10px;">
+    <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">        
         <a href="{{ site.baseurl }}/proyectos/encal/" style="color: #ff0000; text-decoration: none;">ENCAL</a>
       </h3>
@@ -37,7 +37,7 @@ classes: wide
   </div>
 
   <div class="grid__item">
-    <article class="archive__item" style="border: 3px solid #eee; padding: 10px; border-radius: 10px;">
+    <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">
         <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #ff0000; text-decoration: none;">Hackatón MIT</a>
       </h3>
@@ -46,7 +46,7 @@ classes: wide
   </div>
 
   <div class="grid__item">
-    <article class="archive__item" style="border: 3px solid #eee; padding: 10px; border-radius: 10px;">
+    <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">Análisis de Riesgo</h3>
       <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Simulaciones Monte Carlo para evaluación de solvencia en carteras dinámicas.</p>
     </article>
