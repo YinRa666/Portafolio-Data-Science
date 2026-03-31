@@ -30,7 +30,7 @@ classes: wide
   <div class="grid__item">
     <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">        
-        <a href="{{ site.baseurl }}/proyectos/encal/" style="color: #ff0000; text-decoration: none;">ENCAL</a>
+        <a href="{{ site.baseurl }}/proyectos/encal/" style="color: #0077b5; text-decoration: none;">ENCAL</a>
       </h3>
       <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Estudio Nacional de Calidad de la Atención, levantamiento estadístico de mayor alcance del IMSS, diseñado para capturar de forma integral la percepción de los usuarios sobre los servicios de salud brindados a nivel nacional.</p>
     </article>
@@ -39,16 +39,16 @@ classes: wide
   <div class="grid__item">
     <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">
-        <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #ff0000; text-decoration: none;">Análisis de Texto y Codificación Automatizada</a>
+        <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #0077b5; text-decoration: none;">Análisis de Texto y Codificación Automatizada</a>
       </h3>
-      <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Implementación de modelos de NLP (Supervisados y No Supervisados) para la categorización automática de quejas y sugerencias. Optimización del procesamiento de variables abiertas mediante Python, reduciendo el sesgo humano y tiempos de análisis.</p>
+      <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Implementación de modelos supervisados y no supervisados en Python para codificar quejas y sugerencias de usuarios, optimizando el análisis de variables abiertas.</p>
     </article>
   </div>
 
   <div class="grid__item">
     <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">
-        <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #ff0000; text-decoration: none;">Hackatón MIT</a>
+        <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #0077b5; text-decoration: none;">Hackatón MIT</a>
       </h3>
       <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Modelo predictivo bajo estándares del MIT para clasificar la experiencia del usuario. Utiliza aprendizaje supervisado para predecir niveles de satisfacción.</p>
     </article>
