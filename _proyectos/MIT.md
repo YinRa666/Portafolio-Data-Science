@@ -4,9 +4,7 @@ title: "Hackatón MIT: Modelo de Predicción Supervisada"
 permalink: /proyectos/MIT/
 author_profile: true
 classes: wide
-entries_layout: grid
-pagination: 
-  enabled: false
+page_navigation: false
 ---
 
 ### Contexto del Proyecto
