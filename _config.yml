@@ -1,6 +1,6 @@
-url: "https://YinRa666.github.io"
+url: "https://Yair-Chavez.github.io"
 baseurl: "/Portafolio-Data-Science"
-repository: "YinRa666/Portafolio-Data-Science"
+repository: "Yair-Chavez/Portafolio-Data-Science"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Perfil Ejecutivo"
 
@@ -44,6 +44,7 @@ defaults:
       show_date: false
       related: false
       page_navigation: false
+      footer: false
 
 external_links:
   target: "_blank"
