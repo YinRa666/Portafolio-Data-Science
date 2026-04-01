@@ -7,9 +7,21 @@ classes: wide
 ---
 
 <style>  
+  /* Mantiene tu ajuste anterior del menú */
   .masthead__menu {
     float: left !important;
     margin-left: 3.5rem !important;
+  }
+
+  /* PONE "PROYECTOS" EN NEGRITAS EN EL MENÚ SUPERIOR */
+  .masthead__menu-item a {
+    font-weight: bold !important;
+  }
+
+  /* PONE LOS TÍTULOS DE LAS MINIATURAS EN NEGRO */
+  .archive__item-title a {
+    color: #000000 !important;
+    font-weight: bold !important;
   }
 </style>
 
