@@ -6,8 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-<style>
-  /* Mover menú a la izquierda - Única modificación manual necesaria */
+<style>  
   .masthead__menu {
     float: left !important;
     margin-left: 3.5rem !important;
@@ -36,14 +35,14 @@ classes: wide
     </article>
   </div>
 
-  <div class="grid__item">
+  ''<div class="grid__item">
     <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">
         <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #1a3c5e; text-decoration: none;">Análisis de Texto y Codificación Automatizada</a>
       </h3>
       <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Implementación de modelos supervisados y no supervisados en Python para codificar quejas y sugerencias de usuarios, optimizando el análisis de variables abiertas.</p>
     </article>
-  </div>
+  </div>''
 
   <div class="grid__item">
     <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
