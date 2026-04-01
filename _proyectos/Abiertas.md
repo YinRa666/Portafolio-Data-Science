@@ -4,9 +4,7 @@ title: "Análisis de Texto y Codificación Automatizada"
 permalink: /proyectos/Abiertas/
 author_profile: true
 classes: wide
-entries_layout: grid
-pagination: 
-  enabled: false
+page_navigation: false
 ---
 
 ### Contexto del Proyecto
