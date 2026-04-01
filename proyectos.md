@@ -6,25 +6,6 @@ author_profile: true
 classes: wide
 ---
 
-<style>  
-  /* Mantiene tu ajuste anterior del menú */
-  .masthead__menu {
-    float: left !important;
-    margin-left: 3.5rem !important;
-  }
-
-  /* PONE "PROYECTOS" EN NEGRITAS EN EL MENÚ SUPERIOR */
-  .masthead__menu-item a {
-    font-weight: bold !important;
-  }
-
-  /* PONE LOS TÍTULOS DE LAS MINIATURAS EN NEGRO */
-  .archive__item-title a {
-    color: #000000 !important;
-    font-weight: bold !important;
-  }
-</style>
-
 <div style="text-align: justify; font-size: 1.05em; color: #333; line-height: 1.6;">
   Como Actuario con 18 años de trayectoria, he desarrollado y estructurado soluciones de alta sensibilidad estratégica para diversos clientes nacionales e internacionales, garantizando un rigor técnico y confiabilidad estadística superior en la entrega de cada proyecto.
   <br><br>
