@@ -11,7 +11,9 @@ page_navigation: false
 Este proyecto, desarrollado durante la especialización del MIT, consistió en enfrentar a diversos equipos internacionales en la predicción de la satisfacción del usuario (Overall Experience). Con total libertad para elegir el stack tecnológico, hicimos varias pruebas implementando múltiples opciones de algoritmos y segmentaciones de la base de datos. También exploramos diferentes formas de tratar los valores perdidos en los datos a pronosticar.
 
 ### Desafío Técnico y Alcance
-Tras un proceso riguroso de limpieza de datos, ingeniería de variables y entrenamiento con validación cruzada, el modelo destacó por su alto nivel de precisión (Accuracy) al pronosticar sobre la base de datos externa. Con este desempeño, logramos superar los benchmarks de la competencia y mantenernos en los primeros lugares del tablero (Leaderboard).
+Tras un proceso riguroso de limpieza de datos e ingeniería de variables, el modelo fue sometido a una evaluación a ciegas (Blind Test) utilizando un conjunto de datos externo proporcionado por el MIT, el cual carecía de etiquetas de supervisión.
+
+A través de una sólida estrategia de validación cruzada y optimización de hiperparámetros, logramos una capacidad de generalización superior, alcanzando un Accuracy final del 95% verificado por la institución. Este desempeño nos permitió superar los benchmarks de referencia y mantenernos consistentemente en los primeros lugares del tablero de líderes (Leaderboard), validando la robustez del modelo ante datos completamente inéditos.
 
 ### Herramientas y Tecnologías
 * **Lenguaje:** Python (Pandas, NumPy)
