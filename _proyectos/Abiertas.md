@@ -24,15 +24,15 @@ El reto principal fue superar la inconsistencia humana en la codificación manua
 
 El punto de partida del proyecto fue el descubrimiento de los temas subyacentes en el texto no estructurado. Para ello, desarrollé un pipeline de preprocesamiento semántico utilizando spaCy para la limpieza y lematización avanzada. Posteriormente, implementé el algoritmo BERTopic, el cual, apoyado en embeddings de Transformers (BERT), identificó automáticamente los motivos de insatisfacción emergentes, generando así un libro de códigos dinámico y libre de sesgos humanos sobre el que se basaría todo el análisis subsiguiente.
 
-<img src="{{ site.baseurl }}/assets/images/Codigo Abiertas 1.png" alt="Preprocesamiento Semántico y Descubrimiento de Temas con BERTopic" style="width:75%; display:block; margin:auto; border-radius:10px; shadow: 5px 5px 15px rgba(0,0,0,0.15);">
+<img src="{{ site.baseurl }}/assets/images/Codigo Abiertas 1.png" alt="Preprocesamiento Semántico y Descubrimiento de Temas con BERTopic" style="width:70%; display:block; margin:auto; border-radius:10px; shadow: 5px 5px 15px rgba(0,0,0,0.15);">
 
 Una vez establecido el marco categórico, el siguiente desafío fue garantizar que el modelo pudiera clasificar nuevas mediciones de forma consistente. Como se observa en este bloque, utilicé las etiquetas generadas por BERTopic para entrenar un clasificador XGBoost de alta eficiencia. En esta fase, me enfoqué en asegurar una división estratificada de los datos para blindar la precisión del algoritmo frente a categorías con pocos ejemplos, logrando un balance óptimo entre sensibilidad (recall) y precisión.
 
-<img src="{{ site.baseurl }}/assets/images/Codigo Abiertas 2.png" alt="Entrenamiento y Validación del Clasificador XGBoost" style="width:75%; display:block; margin:auto; border-radius:10px; shadow: 5px 5px 15px rgba(0,0,0,0.15);">
+<img src="{{ site.baseurl }}/assets/images/Codigo Abiertas 2.png" alt="Entrenamiento y Validación del Clasificador XGBoost" style="width:70%; display:block; margin:auto; border-radius:10px; shadow: 5px 5px 15px rgba(0,0,0,0.15);">
 
 Finalmente, el verdadero valor estratégico de la solución radica en su capacidad de producción y control de calidad para mediciones recurrentes. Este último script muestra cómo el modelo ya entrenado procesa una base de datos completamente nueva. El aspecto crítico aquí es la implementación automática de un filtro de auditoría que identifica los registros con baja certeza de clasificación (menor al 70%); estos casos son exportados de inmediato para una revisión manual, garantizando la integridad del dato final que llega a la alta dirección.
 
-<img src="{{ site.baseurl }}/assets/images/Codigo Abiertas 3.png" alt="Flujo de Inferencia y Auditoría de Datos" style="width:75%; display:block; margin:auto; border-radius:10px; shadow: 5px 5px 15px rgba(0,0,0,0.15);">
+<img src="{{ site.baseurl }}/assets/images/Codigo Abiertas 3.png" alt="Flujo de Inferencia y Auditoría de Datos" style="width:70%; display:block; margin:auto; border-radius:10px; shadow: 5px 5px 15px rgba(0,0,0,0.15);">
 
 ---
 [« Volver a Proyectos]({{ site.baseurl }}/proyectos/)
